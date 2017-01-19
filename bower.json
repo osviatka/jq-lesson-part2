@@ -1,0 +1,22 @@
+{
+  "name": "gulp_test",
+  "description": "test project",
+  "main": "index.js",
+  "authors": [
+    "osviatka <svyatka@ukr.net>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/osviatka/jq-lesson-part2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
