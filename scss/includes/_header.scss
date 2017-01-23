@@ -1,3 +1,4 @@
+
 .banner{
   position: absolute;
   top: 0;
@@ -17,12 +18,13 @@
             justify-content: space-between;
             background-color: #eff2f6;
           }
-          .logo{
+          .logo {
             position: relative;
             margin-right: 70px;
             @media (min-width: 576px) and (max-width: 769px) {
               margin-right: 30px;
             }
+          }
             &:hover {
               .header-logo-circle {
                 &::before {
@@ -49,10 +51,11 @@
               position: absolute;
               top: 4px;
               right: -12px;
-              border: 3px solid #ff343d;
-              border-radius: 50%;
               width: 11px;
               height: 11px;
+              border: 3px solid #ff343d;
+              border-radius: 50%;
+             }
               &::before {
                 position: absolute;
                 content: "";
@@ -64,7 +67,7 @@
                 right: -3px;
                 animation: .7s infinite;
               }
-            }
+           }
           .phone {
             color: #92a1a5;
             transition: .4s;
@@ -79,16 +82,119 @@
               color: #ff343d;
             }
           }
-        .header-right{
+        .right-side{
           display: flex;
           justify-content: flex-end;
           align-items: center;
+          background-color: #ff343d;
+          @media all and (max-width: 767px){
+            justify-content: space-between;
+            background-color: #ff343d;
+          }
         }
 }
 }
 }
 }
+/*-------------------------------------color-side---------------------------------------*/
+.color-side {
+  position: relative;
+  background-color: #eff2f6;
+  height: 100vh;
+  .container-fluid {
+    height: 100%;
+    overflow: hidden;
+    .color-title {
+      position: absolute;
+      top: 0;
+      left: 60%;
+      right: 0;
+      bottom: 0;
+      background-color: #ff343d;
+      .color-side-logo{
+        position: absolute;
+        top: 280px;
+        right: -320px;
+        transform: rotate(90deg);
+    .white-circle{
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      width: 30%;
+      z-index: 10;
+      transform: translate(-50%,-50%);
+      @media (max-width: 767px){
+        display: none;
+      }
+    }
+    .dron-image{
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      width: 30%;
+      z-index: 10;
+      @media (max-width: 767px){
+        display: none;
+      }
+    .carousel{
+      height: 100%;
+      z-index: 100;
+      .row{
+        position: relative;
+        height: 100%;
+        .color-container{
+          position: absolute;
+          top: 45%;
+          bottom: 5%;
+          left: 5%;
+          right: 65%;
+          @media (max-width: 767px){
+            top: 100px;
+            left: 15%;
+            right: 15%;
+            bottom: 15%;
+          .color-wrapper{
+            .color-slide{
+              .swiper-title{
+                font: 700 60px/50px Montserrat;
+                color: #000;
+                margin-bottom: 55px;
+              p{
+                font: 400 14px/30px Montserrat;
+                color: #92a1a5;
+        .color-pagination{
+          position: absolute;
+          top: 40%;
+          left: 0;
+          @media (max-width: 767px){
+            top: 100px;
+          }
+        .color-scroll{
+          position: absolute;
+          left: -55px;
+          bottom: 10%;
+          color: #000;
+          margin: 0;
+          font: 700 18px/18px Montserrat;
+          transform: rotate(-90deg);
+          animation: top-scroll .7s infinite;
+        }
+        }
+              }
+              }
+            }
+          }
+          }
+        }
+
+      }
+    }
+    }
+    }
+    }
+  }
 }
-}
+
+
 
 

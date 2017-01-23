@@ -1,0 +1,18 @@
+html {
+  font-size: 100%;
+}
+body {
+  font: 300 16px/30px Montserrat;
+  line-height: normal;
+}
+a {
+  color: #ffffff;
+  &:visited,
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+li {
+  list-style-type: none;
+}
