@@ -1,0 +1,70 @@
+
+$fsize-xxs: 12px;
+$fsize-xs: 13px;
+
+$fsize-sm: 14px;
+$fsize-md: 16px;
+$fsize-lg: 18px;
+$fsize-xl: 30px;
+$fsize-xxl: 60px;
+$fsize-xxxl: 72px;
+
+$fweight-xs: 600;
+$fweight-sm: 700;
+$fweight-md: 800;
+
+/*-------------------------------------line-height--------------------------------------*/
+.text-line-height-xs{
+  line-height: 24px;
+}
+.text-line-height-sm{
+  line-height: 28px;
+}
+.text-line-height-md{
+  line-height: 30px;
+}
+.text-line-height-lg{
+  line-height: 36px;
+}
+/*------------------------------------- Montserrat---------------------------------------*/
+
+.text-xxs-raleway{
+  font: 500 $fsize-xxs "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-sm-raleway{
+  font: 400 $fsize-sm "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-sm-raleway-bold{
+  font: 700 $fsize-sm "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-md-raleway{
+  font: 700 $fsize-md "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-md-raleway-color{
+  font: 700 $fsize-md "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.text-lg-raleway{
+  font: 700 $fsize-lg "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-xl-raleway{
+  font: 900 $fsize-xl "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-xxl-raleway{
+  font: 700 $fsize-xxl "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
