@@ -116,26 +116,29 @@
         top: 280px;
         right: -320px;
         transform: rotate(90deg);
-    .white-circle{
+      }
+    .white-circle {
       position: absolute;
       top: 50%;
       left: 60%;
       width: 30%;
       z-index: 10;
-      transform: translate(-50%,-50%);
-      @media (max-width: 767px){
+      transform: translate(-50%, -50%);
+      @media (max-width: 767px) {
         display: none;
       }
     }
-    .dron-image{
+    .dron-image {
       position: absolute;
       top: 50%;
       left: 60%;
       width: 30%;
       z-index: 10;
-      @media (max-width: 767px){
+      transform: translate(-50%, -50%);
+      @media (max-width: 767px) {
         display: none;
       }
+    }
     .carousel{
       height: 100%;
       z-index: 100;
@@ -153,22 +156,27 @@
             left: 15%;
             right: 15%;
             bottom: 15%;
-          .color-wrapper{
-            .color-slide{
-              .swiper-title{
+          .color-wrapper {
+            .color-slide {
+              .swiper-title {
                 font: 700 60px/50px Montserrat;
                 color: #000;
                 margin-bottom: 55px;
-              p{
-                font: 400 14px/30px Montserrat;
-                color: #92a1a5;
-        .color-pagination{
+                p {
+                  font: 400 14px/30px Montserrat;
+                  color: #92a1a5;
+                }
+              }
+            }
+          }
+        .color-pagination {
           position: absolute;
           top: 40%;
           left: 0;
-          @media (max-width: 767px){
+          @media (max-width: 767px) {
             top: 100px;
           }
+        }
         .color-scroll{
           position: absolute;
           left: -55px;
@@ -187,13 +195,7 @@
           }
         }
 
-      }
-    }
-    }
-    }
-    }
-  }
-}
+
 
 
 
